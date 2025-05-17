@@ -1,43 +1,36 @@
-This repository encapsulates an Exploratory Data Analysis (EDA) project focused on uncovering correlations and patterns within a dataset. The primary goal is to identify relationships between variables and gain insights into the data's features.
+## 📋 Project Overview
 
-Key Project Steps:
+This project performs an in-depth Exploratory Data Analysis (EDA) on a movies dataset to identify key correlations and trends between variables like budget and gross revenue.
 
-1. Library Import:
+---
 
-    ● Imported essential libraries such as Pandas, Matplotlib, and Seaborn to facilitate data manipulation and visualization.
+## 🔑 Key Steps
 
-2. Handling Null Values:
+- Imported libraries: Pandas, Matplotlib, Seaborn  
+- Handled null values (mean for numeric, mode for categorical)  
+- Converted data types for accuracy  
+- Sorted data by gross revenue ascending  
+- Cleaned dates and corrected formatting  
+- Visualized budget vs gross revenue with scatter + regression line  
+- Created correlation matrix and heatmap for variable relationships  
+- Converted categorical data to numeric to deepen correlation analysis  
 
-    ● Applied statistical methods (mean for numeric variables, mode for object variables) to fill null values until no column  contained any missing data.
+---
 
-3. Data Type Conversion:
+## 📊 Visualizations
 
-    ● Ensured correct data types for each variable to enhance analytical accuracy.
+- Scatter plot with regression between budget and gross revenue  
+- Correlation heatmaps showing relationships across variables  
 
-4. Data Sorting and Exploration:
+---
 
-    ● Sorted the data in ascending order based on gross revenue, aiding in a better understanding of the dataset.
+## 🧰 Technologies Used
 
-5. Cleaning Operations:
+- Python (Pandas, Matplotlib, Seaborn)  
+- Jupyter Notebook (or similar environment for EDA)  
 
-    ● Performed necessary cleaning operations, including date formatting and correction.
+---
 
-6. Visualization - Scatter Plot and Regression Analysis:
+## 📚 License
 
-    ● Utilized Seaborn library to create a scatter plot between budget and gross revenue.
-
-    ● Overlayed a regression line on the plot to discern trends in the data.
-
-7. Correlation Matrix and Heatmap:
-
-    ● Generated a correlation matrix to understand the relationships between variables.
-
-    ● Represented the correlation matrix using a heatmap for visual clarity.
-
-8. Comprehensive Variable Analysis:
-
-    ● Created a new dataframe providing numeric representations of object values for each column.
-
-    ● Obtained a correlation matrix and heatmap to visualize relationships between all variables.
-
-This GitHub repository serves as a detailed record of the EDA process, showcasing the steps taken to explore, clean, and analyze the dataset. It provides a valuable resource for those interested in understanding the correlations and trends within the data.
+Educational use only.
