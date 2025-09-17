@@ -1,36 +1,48 @@
-## 📋 Project Overview
+# Movies Correlation Analysis
+**Exploratory data analysis identifying relationships between movie budget and gross revenue**
 
-This project performs an in-depth Exploratory Data Analysis (EDA) on a movies dataset to identify key correlations and trends between variables like budget and gross revenue.
+## 🎯 Analysis Objective
+Statistical exploration of movies dataset to uncover correlations between variables, with primary focus on budget-revenue relationships and other performance factors.
 
----
+## 📊 Key Analytical Steps
+**Data Preprocessing:**
+- Missing value treatment (mean for numeric, mode for categorical)
+- Data type corrections and formatting standardization
+- Date parsing and data structure optimization
 
-## 🔑 Key Steps
+**Exploratory Analysis:**
+- Budget vs gross revenue relationship analysis
+- Correlation matrix computation across all variables
+- Statistical relationship identification between movie attributes
 
-- Imported libraries: Pandas, Matplotlib, Seaborn  
-- Handled null values (mean for numeric, mode for categorical)  
-- Converted data types for accuracy  
-- Sorted data by gross revenue ascending  
-- Cleaned dates and corrected formatting  
-- Visualized budget vs gross revenue with scatter + regression line  
-- Created correlation matrix and heatmap for variable relationships  
-- Converted categorical data to numeric to deepen correlation analysis  
+**Visualization:**
+- Scatter plot with regression line (budget vs gross revenue)
+- Correlation heatmap showing variable relationships
+- Distribution analysis of key metrics
 
----
+## 🔍 Findings
+- **Primary Correlation:** Strong positive relationship between budget and gross revenue
+- **Variable Analysis:** Comprehensive correlation matrix revealing secondary relationships
+- **Data Insights:** Statistical patterns in entertainment industry performance metrics
 
-## 📊 Visualizations
+## 🛠️ Technical Implementation
+**Languages:** Python  
+**Libraries:** Pandas (data manipulation), Matplotlib (plotting), Seaborn (statistical visualization)  
+**Environment:** Jupyter Notebook  
+**Techniques:** Correlation analysis, regression visualization, statistical EDA
 
-- Scatter plot with regression between budget and gross revenue  
-- Correlation heatmaps showing relationships across variables  
+## 📁 Dataset
+- **Source:** Movies dataset with budget, revenue, and metadata
+- **Format:** CSV with comprehensive movie attributes
+- **Variables:** Budget, gross revenue, ratings, genres, release dates
 
----
+## 📈 Visualization Outputs
+- **Scatter Plot:** Budget vs gross revenue with trend line
+- **Correlation Heatmap:** Complete variable relationship matrix
+- **Statistical Summaries:** Descriptive analytics across dataset
 
-## 🧰 Technologies Used
-
-- Python (Pandas, Matplotlib, Seaborn)  
-- Jupyter Notebook (or similar environment for EDA)  
-
----
-
-## 📚 License
-
-Educational use only.
+## 🎓 Learning Outcomes
+- Hands-on experience with correlation analysis
+- Statistical visualization best practices
+- Data preprocessing for analytics workflows
+- Entertainment industry data patterns understanding
